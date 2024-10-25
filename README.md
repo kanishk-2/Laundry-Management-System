@@ -31,13 +31,7 @@ This is a simple Laundry Management System built using Python, Tkinter for the G
    ```bash
    pip install mysql-connector-python
 
-3. Create Database
-Open  MySQL command line, and create the database with the following command:
-
-`CREATE DATABASE laundry_management_db;`
-
-
-4. Database Configuration
+3. Database Configuration
 
 Open `database.py` and update the following fields with your MySQL credentials:
 
@@ -49,11 +43,38 @@ Open `database.py` and update the following fields with your MySQL credentials:
 
     database="laundry_management_db"
 
-5. Run the Application
+4. Run the Application
    Execute laundry.py to start the GUI:
    `python laundry.py`
 
-## Outputs
+
+## Step-by-Steps Instructions for seeing data in mysql from terminal-
+  1. Log into MySQL:`mysql -u root -p`
+  2. Create the Database: `CREATE DATABASE laundry_management_db;`
+  3. Grant Privileges to a User: `Replace your_username and your_password accordingly:`
+     
+    `GRANT ALL PRIVILEGES ON laundry_management_db.* TO 'your_username'@'localhost' IDENTIFIED BY 'your_password';`
+  4. Apply the Privileges: `FLUSH PRIVILEGES;`
+  5. Verify Database: To see your data, run:
+     
+         mysql -u root -p
+     
+         Enter password: [your_password]
+     
+         SHOW DATABASES;
+     
+         USE laundry_management_db;
+     
+         SELECT * FROM laundry;
+  6. Exit MySQL: `EXIT;`
+
+
+ ## Outputs: 
+
+     
+
+
+
 
 
 
