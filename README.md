@@ -33,5 +33,37 @@ This is a simple Laundry Management System built using Python, Tkinter for the G
 
 3. Create Database
 Open  MySQL command line, and create the database with the following command:
-```bash
- CREATE DATABASE laundry_management_db;
+
+`CREATE DATABASE laundry_management_db;`
+
+
+4. Database Configuration
+
+Open `database.py` and update the following fields with your MySQL credentials:
+
+    host="localhost"
+
+    user="your_username"
+
+    password="your_password"
+
+    database="laundry_management_db"
+
+5. Run the Application
+   Execute laundry.py to start the GUI:
+   `python laundry.py`
+
+## Outputs
+
+
+
+   
+
+
+
+
+
+
+
+
+
