@@ -71,6 +71,8 @@ Open `database.py` and update the following fields with your MySQL credentials:
 
  ## Outputs: 
 
+<img width="1277" alt="1" src="https://github.com/user-attachments/assets/0e206f4e-595b-436f-9261-c17820c14c29">
+
      
 
 
