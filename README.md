@@ -30,3 +30,8 @@ This is a simple Laundry Management System built using Python, Tkinter for the G
 2. **Install `mysql-connector-python`**
    ```bash
    pip install mysql-connector-python
+
+3. Create Database
+Open  MySQL command line, and create the database with the following command:
+```bash
+ CREATE DATABASE laundry_management_db;
